@@ -1,39 +1,51 @@
 
-body {
-    background-color: whitesmoke;
-    font-family: 'Neue Montreal';
-    font-weight: 600;
-    font-size: 14px;
-    font-weight: bold;
-    font-feature-settings: "palt";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #333;
-    border-style: solid;
-    border-width: thin;
-    padding: 0;
-    margin: 12px;
-}
-
 /* HEADINGS */
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 24px;
-    padding: 0;
-    margin: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    padding: 0;
-    margin: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0;
+  margin: 1px;
 }
 
-div {
-    padding: 10px;
-    margin: -24px;
+/* BODY */
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Neue Montreal';
+  font-weight: 600;
+  font-size: 14px;
+  font-weight: bold;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  margin: 20px;
 }
+
+li {
+  padding: 6px;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+
+p {
+  padding: 125px;
+  margin: 0;
+  text-align: right;
+}
+
+
