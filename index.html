@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
     <meta name="description" content="Carlos Valenzuela's Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="30">
@@ -16,13 +17,17 @@
     <h2>Designer & Developer</h2>
       <div>
         <ul>
-          <li>Home</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><button onclick="navigateTo(index.html)">Home</button></li>
+          <li><button onclick="navigateTo('projects.html')">Projects</button></li>
+          <li><button onclick="navigateTo('contact.html')">Contact</button></li>
         </ul>
       </div>
-      <div>
         <p>Born in 1991 in Apple Valley, CA. Coming from a diverse background in skateboarding to art design has always been a passion. Being able to create things and have them be useful to humanity is what I look forward more to this life long journey of development.</p>
-      </div>
+        <script src="script.js"></script>
+        <script>
+          function navigateTo(page) {
+            window.location.href = page;
+          }
+        </script>
   </body>
 </html>
