@@ -92,6 +92,22 @@ h5 a {
   text-decoration: none;
 }
 
+/*BUTTON FEATURES*/
+
+/* Add a class to the current page */
+.current-page {
+  font-weight: bold; /* You can adjust this styling */
+  color: black; /* Adjust the color */
+}
+
+/* Apply the class to the corresponding list item */
+#home.current-page,
+#projects.current-page,
+#contact.current-page {
+  list-style: disc; /* Use a disc as a bullet or customize as needed */
+}
+
+
 .invisibleButton {
   background-color: transparent;
   border: none;
