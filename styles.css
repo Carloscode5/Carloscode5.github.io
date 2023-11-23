@@ -93,6 +93,8 @@ div {
   left: -5px;
 }
 
+div
+
 /*BUTTON FEATURES*/
 
 /* Add a class to the current page */
@@ -125,7 +127,7 @@ li {
 /* HOME PAGE BIO */
 
 .wrapped-text {
-  position: fixed;
+  position: relative;
   bottom: 5px;
   right: 20px;
   width: 10%;
