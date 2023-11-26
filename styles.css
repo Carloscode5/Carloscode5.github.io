@@ -84,7 +84,7 @@ body {
   border: thin solid #000;
   box-sizing: border-box;
   padding: 300px;
-  margin: 24px;
+  margin: 16px;
 }
 
 div {
@@ -92,8 +92,6 @@ div {
   top: 110px;
   left: -5px;
 }
-
-div
 
 /*BUTTON FEATURES*/
 
@@ -127,7 +125,7 @@ li {
 /* HOME PAGE BIO */
 
 .wrapped-text {
-  position: relative;
+  position: fixed;
   bottom: 5px;
   right: 20px;
   width: 10%;
