@@ -113,6 +113,11 @@ div {
   border: none;
   color: black;
   cursor: pointer;
+  transition: color 0.4s ease;
+}
+
+.invisibleButton:hover {
+  color: transparent;
 }
   
 li {
@@ -120,6 +125,7 @@ li {
   margin: 0;
   list-style: none;
   text-align: left;
+  text-decoration: none;
 }
 
 /* HOME PAGE BIO */
