@@ -12,6 +12,12 @@ h1 {
   margin: 0;
 }
 
+h2 a {
+  position: fixed;
+  top: 400px;
+  right: 32px;
+}
+
 h2 {
   position: fixed;
   top: 50px;
@@ -74,6 +80,13 @@ body {
   background: whitesmoke;
 }
 
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .loader {
   position: relative;
   width: 350px;
@@ -126,6 +139,10 @@ body {
   background: #f1f1f1;
   border: solid whitesmoke 10px;
   border-radius: 50%;
+}
+
+.loader-wrapper {
+  display: none;
 }
 
 /* BODY */
