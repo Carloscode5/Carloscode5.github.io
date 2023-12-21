@@ -87,6 +87,29 @@ body {
   margin: 16px;
 }
 
+/*Project Thumbnail Photos*/
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.thumbnails img {
+  width: auto;
+  height: 200px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnails a {
+  display: block;
+}
+
+.thumbnails img:hover {
+  transform: scale(1.1);
+}
+
 nav {
   position: fixed;
   top: 110px;
@@ -153,3 +176,4 @@ button {
   display: block;
   height: 10px; /* Adjust the spacing between paragraphs */
 }
+
