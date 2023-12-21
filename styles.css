@@ -161,6 +161,8 @@ button {
 /* HOME PAGE BIO */
 
 .wrapped-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   position: fixed;
   bottom: 5px;
   right: 20px;
