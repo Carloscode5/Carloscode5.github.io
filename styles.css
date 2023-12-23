@@ -19,6 +19,12 @@
   display: none;
 }
 
+.notranslate {
+  -ms-transform: translate(0, 0); /* IE 9 */
+  -webkit-transform: translate(0, 0); /* Safari */
+  transform: translate(0, 0);
+}
+
 /* HEADINGS */
 
 h1 {
