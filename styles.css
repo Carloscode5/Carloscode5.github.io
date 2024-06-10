@@ -191,12 +191,11 @@ button {
 }
 
 /* HOME PAGE BIO */
-
-.wrapped-text {
+#bio {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   position: fixed;
-  bottom: -35px;
+  bottom: -25px;
   right: 10px;
   width: 10%;
   white-space: pre-line;
@@ -210,4 +209,3 @@ button {
   display: block;
   height: 10px; /* Adjust the spacing between paragraphs */
 }
-
