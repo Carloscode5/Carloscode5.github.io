@@ -23,3 +23,31 @@ if (!pageLoadedBefore) {
 function navigateTo(page) {
     window.location.href = page;
 }
+
+// Bio typing out animation
+// Wait for 5 seconds before triggering the typing animation
+setTimeout(function() {
+    // Select the element with id 'bio'
+    const bioElement = document.getElementById('bio');
+    
+    // Check if the element exists to avoid errors
+    if (bioElement) {
+        bioElement.style.borderRight = 'none'; // Remove the typing cursor
+    } else {
+        console.error("Element with id 'bio' not found.");
+    }
+}, 5000); // Delay time in milliseconds (5 seconds)
+
+
+// Wait for 5 seconds before triggering the typing animation
+setTimeout(function() {
+    // Select the element with id 'heading'
+    const headingElement = document.getElementById('heading');
+    
+    // Check if the element exists to avoid errors
+    if (headingElement) {
+        headingElement.style.borderRight = 'none'; // Remove the typing cursor
+    } else {
+        console.error("Element with id 'heading' not found.");
+    }
+}, 5000); // Delay time in milliseconds (5 seconds)
