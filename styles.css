@@ -203,13 +203,25 @@ button {
   margin: 40px;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
+/*Blinking Cursor Effect*/
+.blinking-cursur::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
   }
-  to {
-    width: 100%;
+  50% {
+    opacity: 0;
   }
+}
+
+#dynamic-text {
+  display: inline-block;
+  font-size: 2em;
+  color: #333;s
 }
 
 /* Add on code, revist, may not need in the final draft */

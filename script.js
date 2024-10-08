@@ -25,29 +25,15 @@ function navigateTo(page) {
 }
 
 // Bio typing out animation
-// Wait for 5 seconds before triggering the typing animation
-setTimeout(function() {
-    // Select the element with id 'bio'
-    const bioElement = document.getElementById('bio');
-    
-    // Check if the element exists to avoid errors
-    if (bioElement) {
-        bioElement.style.borderRight = 'none'; // Remove the typing cursor
-    } else {
-        console.error("Element with id 'bio' not found.");
-    }
-}, 5000); // Delay time in milliseconds (5 seconds)
+const text = "Aspiring Front-End Developer passionate about fostering collaboration within high-performing tech teams and building lasting relationships. I leverage my technical skills and collaborative mindset to seamlessly integrate with cross-functional teams, contributing to innovative projects and delivering front-end solutions that exceed client expectations. My development journey is fueled by a dedication to lifelong learning and an excitement for new challenges."
+let index = 0;
 
-
-// Wait for 5 seconds before triggering the typing animation
-setTimeout(function() {
-    // Select the element with id 'heading'
-    const headingElement = document.getElementById('heading');
-    
-    // Check if the element exists to avoid errors
-    if (headingElement) {
-        headingElement.style.borderRight = 'none'; // Remove the typing cursor
-    } else {
-        console.error("Element with id 'heading' not found.");
+function typewriter() {
+    if (index < text.length) {
+        document.getElementById("dynamic-text").innerHTML += text.charAt(index);
+        index++
+        setTimeout(typewriter, 150);
     }
-}, 5000); // Delay time in milliseconds (5 seconds)
+}
+
+window.onload = typewriter;
