@@ -204,7 +204,7 @@ button {
 }
 
 /*Blinking Cursor Effect*/
-.blinking-cursur::after {
+.blinking-cursor::after {
   content: '|';
   animation: blink 1s infinite;
 }
@@ -221,7 +221,7 @@ button {
 #dynamic-text {
   display: inline-block;
   font-size: 2em;
-  color: #333;s
+  color: #333;
 }
 
 /* Add on code, revist, may not need in the final draft */
