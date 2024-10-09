@@ -19,10 +19,12 @@ if (!pageLoadedBefore) {
     document.getElementById("content").style.display = "block";
 }
 
+
 // Function to navigate to a new page
 function navigateTo(page) {
     window.location.href = page;
 }
+
 
 // Bio typing out animation
 const text = "Aspiring Front-End Developer passionate about fostering collaboration within high-performing tech teams and building lasting relationships. I leverage my technical skills and collaborative mindset to seamlessly integrate with cross-functional teams, contributing to innovative projects and delivering front-end solutions that exceed client expectations. My development journey is fueled by a dedication to lifelong learning and an excitement for new challenges."
@@ -32,7 +34,7 @@ function typewriter() {
     if (index < text.length) {
         document.getElementById("dynamic-text").innerHTML += text.charAt(index);
         index++
-        setTimeout(typewriter, 150);
+        setTimeout(typewriter, 35);
     }
 }
 
