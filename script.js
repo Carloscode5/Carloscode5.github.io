@@ -27,7 +27,7 @@ function navigateTo(page) {
 
 
 // Bio typing out animation
-const text = "Aspiring Front-End Developer passionate about fostering collaboration within high-performing tech teams and building lasting relationships. I leverage my technical skills and collaborative mindset to seamlessly integrate with cross-functional teams, contributing to innovative projects and delivering front-end solutions that exceed client expectations. My development journey is fueled by a dedication to lifelong learning and an excitement for new challenges."
+const text = "Front-End Developer committed to crafting thoughtful solutions. Thriving in team environments, always seeking ways to push boundaries and learn something new. Progress is my constant goal, with each project a step forward."
 let index = 0;
 
 function typewriter() {
