@@ -44,51 +44,45 @@ h2 {
   margin: 5px;
 }
 
-h2 a {
-  position: fixed;
-  top: 280px;
+h3 {
+  position: absolute;
+  bottom: -150px;
   left: 600px;
   font-weight: normal;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
 }
 
-h3 a {
-  position: absolute;
-  bottom: 95px;
-  right: 32px;
+/* Contact Info Section Styles */
+#contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact-info li {
+  margin-bottom: 10px;
+}
+
+#contact-info a {
+  color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 11px;
-  padding: 0;
-  margin: 0;
   text-decoration: none;
-  cursor: pointer;  
+  transition: color 0.3s ease;
+  cursor: pointer; /* Ensures the pointer cursor shows when hovering over links */
 }
 
-h4 a {
-  position: absolute;
-  bottom: 65px;
-  right: 32px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 11px;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  cursor: pointer;
+#contact-info a:hover {
+  color: gray; /* Add hover effect for links */
 }
 
-h5 a {
+/* Adjust positioning of the contact section */
+#contact-info {
   position: absolute;
-  bottom: 35px;
-  right: 32px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 11px;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  cursor: pointer;
+  bottom: 20px;
+  right: 40px;
 }
 
 /* BODY */
@@ -210,13 +204,12 @@ button {
   white-space: pre-line;
   overflow: hidden;
   position: absolute;
-  top: 52%;
-  bottom: -10px;
-  right: 10px;
+  top: 55%;
+  bottom: 10px;
+  right: 20px;
   width: 10%;
-  white-space: pre-line;
   text-align: left;
-  margin: 40px;
+  margin: 10px;
   font-size: 1em;
   color: #333;
 }
